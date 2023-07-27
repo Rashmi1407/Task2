@@ -6,7 +6,6 @@ using namespace std;
 int main() {
     ifstream inputFile("properties.json");
     string jsonContent;
-
     if (inputFile.is_open()) {
         // Read the entire JSON content from the file
         string line;
